@@ -2192,8 +2192,8 @@ aside.sidebar .tags ul li {
 }
 .dash-menu-conntent>span{
     padding: 5px;
-    color: #285AEB;
-    text-shadow: 5px 5px 5px black;
+    color: 285AEB;
+    /*text-shadow: 5px 5px 5px black;*/
     font-family: 'Kanit', sans-serif;
     font-size: 1.75rem;
     font-weight: bold;

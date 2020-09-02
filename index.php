@@ -387,7 +387,7 @@
                 <div class="col-md-7 col-12" data-aos="fade-right">
                     <div class="accordion" id="faqAccordion">
                         
-                        <div class="card shadow">
+                       <!-- <div class="card shadow">
                             <div class="card-header" id="heading_1">
                                 <h4 class="mb-0">
                                     <button class="btn btn-link" type="button" data-toggle="collapse"
@@ -423,7 +423,7 @@
                                     ด้วยค่าบริการรายเดือน ราคาแพ็คเกจ เริ่มต้นที่ 99 บาท ถึง 150 บาท ต่อเดือน แบบไม่มีค่าใช้จ่ายเพิ่มเติม และไม่มีสัญญาผูกมัดใดๆ
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         
                         <div class="card shadow">
                             <div class="card-header" id="heading_3">

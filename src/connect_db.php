@@ -1,6 +1,12 @@
 <?php
-$con= mysqli_connect("localhost","root","","db_con_landingpage") or die("Error: " . mysqli_error($con));
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "db_con_landingpage";
 
-mysqli_query($con, "SET NAMES 'utf8' ");
- 
+    $con = mysqli_connect($servername,$username,$password,$dbname);
+
+    if (!$con) {
+        die("connection_failed" . mysqli_connect_error());
+    }
 ?>
