@@ -308,11 +308,11 @@
 
             <div class="space-25"></div>
             
-            <div class="row align-items-center">
+            <!--<div class="row align-items-center">
                 <div class="col-12 text-center" data-aos="fade-up">
                     <img src="assets/img/finger.png" alt="">
                 </div>
-            </div>
+            </div>-->
         </div>
     </section>
     <!-- End Section service -->
