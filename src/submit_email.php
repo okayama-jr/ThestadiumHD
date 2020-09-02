@@ -10,7 +10,7 @@ include('../src/connect_db.php');  //ไฟล์เชื่อมต่อก�
 	if ($ck<=0){ //ถ้า ไม่มีตัวซ้ำ
 	
 		echo "<script type='text/javascript'>";
-		echo "alert('ขอบคุณที่สนับสนุน');";
+		echo "alert('Thankyou for support');";
 		echo("window.location = '../index.php';");
 		echo "</script>";		
 	
@@ -24,7 +24,7 @@ include('../src/connect_db.php');  //ไฟล์เชื่อมต่อก�
 	//จาวาสคริปแสดงข้อความเมื่อบันทึกเสร็จและกระโดดกลับไปหน้าฟอร์ม
 	else {
 		echo "<script type='text/javascript'>";
-		echo "alert('อีเมล์นี้เคยลงทะเบียนแล้ว');";
+		echo "alert('This email has been registered.');";
 		echo("window.location = '../index.php';");
 		echo "</script>";
 		die;
