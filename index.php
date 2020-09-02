@@ -34,7 +34,10 @@
     <link href='https://fonts.googleapis.com/css?family=Kanit&subset=thai,latin' rel='stylesheet' type='text/css'>
 
     <!-- icon -->
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
     
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
@@ -59,10 +62,11 @@
                 <a class="navbar-brand" href="index.html">
                     <img src="" class="img-fluid" alt="">
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_menu"
+                <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#main_menu"
                     aria-controls="main_menu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+
                 <div class="collapse navbar-collapse" id="main_menu">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
@@ -125,7 +129,6 @@
     </section>
     <!-- End Section Header -->
     
-
     <!-- section subscribe-->
     <section class="watch-video padding-100 section dark_blue_layout white_fonts layout_padding" style="background:#000;">
         <div class="container">
@@ -182,78 +185,6 @@
     </section>
     <!-- end section  subscribe-->
 
-    <!-- Start Section Main Features -->
-    <!-- <section id="main_features" class="main-features padding-100">
-        <div class="container">
-            <div class="row">
-                <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
-                    <h3>HIGHTLIGHT
-                        <span>กีฬา</span>
-                    </h3>
-                    <div class="space-25"></div>
-                    <p></p>
-                    <div class="space-25"></div>
-                </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-3 text-lg-right left-side">
-                    <div class="one-feature one" data-aos="fade-right" data-aos-delay="1000">
-                        <h5>ฟุตบอล</h5>
-                        <span class=""></span>
-                        <p></p>
-                    </div>
-                    <div class="one-feature" data-aos="fade-right" data-aos-delay="1400">
-                        <h5>วอลเล่บอล</h5>
-                        <span class=""></span>
-                        <p></p>
-                    </div>
-                    <div class="one-feature" data-aos="fade-right" data-aos-delay="1800">
-                        <h5>มวยไทย</h5>
-                        <span class=""></span>
-                        <p></p>
-                    </div>
-                </div>
-                <div class="col-lg-6 text-center">
-                    <div class="features-circle">
-                        <div class="circle-svg" data-aos="zoom-in" data-aos-delay="400">
-                            <svg version="1.1" id="features_circle" xmlns="http://www.w3.org/2000/svg"
-                                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="543px"
-                                height="542.953px" viewBox="0 0 543 542.953" enable-background="new 0 0 543 542.953"
-                                xml:space="preserve">
-                                <g>
-                                    <circle fill="none" stroke="#" stroke-width="3" stroke-miterlimit="10"
-                                        stroke-dasharray="11.9474,11.9474" cx="271.5" cy="271.516" r="270" />
-                                    <animateTransform attributeName="transform" type="rotate" from="0" to="360"
-                                        dur="50s" repeatCount="indefinite"></animateTransform>
-                                </g>
-                            </svg>
-                        </div>
-                        <img data-aos="fade-up" data-aos-delay="200" src="assets/img/iphone.png" class="img-fluid"
-                            alt="">
-                    </div>
-                </div>
-                <div class="col-lg-3 right-side">
-                    <div class="one-feature" data-aos="fade-left" data-aos-delay="1000">
-                        <h5>บาสเกตบอล</h5>
-                        <span class=""></span>
-                        <p></p>
-                    </div>
-                    <div class="one-feature" data-aos="fade-left" data-aos-delay="1400">
-                        <h5>ว่ายน้ำ</h5>
-                        <span class=""></span>
-                        <p></p>
-                    </div>
-                    <div class="one-feature" data-aos="fade-left" data-aos-delay="1800">
-                        <h5>เทคควันโด</h5>
-                        <span class=""></span>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- End Section Main Features -->
-
     <!-- Start Section Introduce -->
     <section id="about" class="why-us padding-100 background-fullwidth background-fixed mobile-hide" style="background-image: url(assets/img/bg-page-may.png); background-size: cover; background-repeat:no-repeat;">
         <div class="container">
@@ -283,7 +214,7 @@
             <div class="row">
                 <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
                     <h3>ดูกันสดๆหรือดูย้อนหลัง
-                        <span> ทุกช่องทาง</span>
+                        <span style="color:#fff;"> ทุกช่องทาง</span>
                     </h3>
                     <div class="space-25"></div>
                     <p></p>
@@ -323,10 +254,11 @@
                     <div class="space-50"></div>
                 </div>
             </div>
+
             <div class="row align-items-center">
                 <div class="col-12">
                     <div class="other-features-slider" data-aos="fade-up">
-
+            
                         <div class="item text-center head-inner-feature">
                             <span class="fas fa-frown"></span>
                             <h4>ไม่พลาดทุกรายการแข่งขันในประเทศ</h4>
@@ -348,7 +280,7 @@
                             </p>
                         </div>
 
-                        <div class="item text-cente head-inner-featurer">
+                        <div class="item text-center head-inner-feature">
                             <span class="fas fa-frown"></span>
                             <h4>คุณภาพระดับ FULL HD</h4>
                             <p>ชมถ่ายทอดสดการแข่งขัน ด้วยคุณภาพสัญญานแบบความคมชัดสูง ในรูปแบบ HD และ Full HD
@@ -364,6 +296,23 @@
                     </div>
                 </div>
             </div>
+
+            <div class="space-25"></div>
+
+            <div class="row">
+                <div class="col-12 text-center">
+                    <i class="fa fa-angle-double-left icon-slider" style="font-size:48px; margin-right:20px;" data-aos="fade-left"></i>
+                    <i class="fa fa-angle-double-right icon-slider" style="font-size:48px; margin-left:20px;" data-aos="fade-right"></i>
+                </div> 
+            </div>
+
+            <div class="space-25"></div>
+            
+            <div class="row align-items-center">
+                <div class="col-12 text-center" data-aos="fade-up">
+                    <img src="assets/img/finger.png" alt="">
+                </div>
+            </div>
         </div>
     </section>
     <!-- End Section service -->
@@ -374,7 +323,7 @@
             <div class="row">
                 <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
                     <h3>แนวคิดผู้พัฒนา
-                        <span>Vision</span>
+                        <span style="color:#fff;">Vision</span>
                     </h3>
                     <div class="space-25"></div>
                     <p></p>
@@ -421,175 +370,6 @@
         </div>
     </section>
     <!-- End Section developer  -->
-
-    
-    <!-- Start Section Jobs Done -->
-    <!--<section id="facts" class="fun-facts padding-100 background-withcolor" style="background-image: url(assets/img/bg-page-boxing.png); background-size: cover; background-repeat:no-repeat;">
-        <div class="container">
-            <div class="row">
-                <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
-                    <h3>การสนับสนุน
-                        <span class="white"> Support</span>
-                    </h3>
-                    <div class="space-25"></div>
-                    <p></p>
-                    <div class="space-50"></div>
-                </div>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-3 col-md-6 col-12">
-                    <div class="fact-box text-center" data-aos="fade-up" data-aos-delay="400">
-                        <span class="far fa-bell" style="color: #285AEB;font-size:36px;"></span>
-                        <h5>0</h5>
-                        <h6 style="text-shadow: none; color:#999;">Subscribe</h6>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-12">
-                    <div class="fact-box text-center" data-aos="fade-up" data-aos-delay="800">
-                        <span class="far fa-thumbs-up"  style="color: #285AEB;font-size:36px;"></span>
-                        <h5>0</h5>
-                        <h6 style="text-shadow: none; color: #999;">Like</h6>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-12">
-                    <div class="fact-box text-center" data-aos="fade-up" data-aos-delay="1200">
-                        <span class="fa fa-arrow-circle-down"  style="color: #285AEB;  font-size:36px;"></span>
-                        <h5>0</h5>
-                        <h6 style="text-shadow: none; color: #999;">Download</h6>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-12">
-                    <div class="fact-box text-center" data-aos="fade-up" data-aos-delay="1600">
-                        <span class="fa fa-share-alt"  style="color: #285AEB; font-size:36px;"></span>
-                        <h5>0</h5>
-                        <h6 style="text-shadow: none; color: #999;">Share</h6>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>-->
-    <!-- End Section Fun Facts  -->
-
-    <!-- Start Section Our Team -->
-    <!-- <section id="team" class="our-team padding-100 background-fullwidth background-fixed mobile-hide"
-        style="background-image: url(assets/img/bg-page-may.png);">
-        <div class="container">
-            <div class="row">
-                <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
-                    <h3>ทีมผู้พัฒนา
-                        <span> Developer</span>
-                    </h3>
-                    <div class="space-25"></div>
-                    <p></p>
-                    <div class="space-50"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <div class="team-slider" data-aos="fade-up">
-                        <div class="item person text-center">
-                            <img src="assets/img/profile.png" class="img-fluid d-block mx-auto" alt="">
-                            <div class="space-20"></div>
-                            <h3>Naeun Son</h3>
-                            <div class="space-20"></div>
-                            <h5>xxx</h5>
-                            <div class="space-20"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio provident dolores.
-                            </p>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="item person text-center">
-                            <img src="assets/img/profile.png" class="img-fluid d-block mx-auto" alt="">
-                            <div class="space-20"></div>
-                            <h3>Naeun Son</h3>
-                            <div class="space-20"></div>
-                            <h5>xxx</h5>
-                            <div class="space-20"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio provident dolores.
-                            </p>
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-linkedin-in"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- End Section Our Team -->
-
-    <!-- Start Section quality-->
-    <!-- <section id="faq" class="faq padding-100 background-fullwidth background-fixed mobile-hide" style="background-image: url(assets/img/bg-page.png); background-size: cover; background-repeat:no-repeat;">
-        <div class="container">
-            <div class="row">
-                <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
-                    <h3>คุณภาพการถ่ายทอดสด 
-                        <span> FULL HD</span>
-                    </h3>
-                    <div class="space-25"></div>
-                    <div class="space-50"></div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="row align-items-center">
-                    <div class="col-md-6 col-12" data-aos="fade-right">
-                        <h3>ไม่ผลาดทุการรับชม</h3>
-                        <div class="space-15"></div>
-                        <p> ชมการถ่ายทอดสดการแข่งขัน ด้วยภาำสัญญาณ 
-                            แบบความคมชัดชัดสูงแบบ <br> HD และ FULL HD 
-                            รวมถึงคุณภาพเสียงจากผู้บรรยาย ภาษาไทย
-                        </p>
-                        <div class="space-15"></div>
-                        <div class="space-15"></div>
-                    </div>
-                    <div class="col-md-6 col-12" data-aos="fade-left" data-aos-delay="400">
-                        <img src="assets/img/football.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- End Section quality  -->
 
     <!-- Start Section Q&A-->
     <section id="faq" class="faq padding-100">
@@ -765,6 +545,41 @@
         </div>
     </section>
     <!-- End Section Q&A  -->
+        
+    <!-- Start Section -->
+    <section id="email_news">
+        <div class="container">
+            <div class="row">
+                <div class="text-center col-12 section-title" data-aos="fade-zoom-in">
+                    <h3>รับสิทธิพิเศษ
+                        <!-- <span style="color:#fff;"> ก่อนใคร </span> -->
+                    </h3>
+                    <div class="space-25"></div>
+                    <p class="small text-center">รับชมได้ทุกที่ ทุกเวลา เหมือนนั่งอยู่ขอบสนาม <br> เชิญป้อนอีเมลล์เพื่อรับสิทธิพิเศษ เมื่อเปิดให้บริการ  </p>
+                    <div class="space-50"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+                    <div class="full">
+                        <div class="form_section">
+                        <form class="news_submit_form" method="post" action="src/submit_email.php">
+                                <fieldset>
+                                    <div class="field">
+                                        <input type="email" placeholder="ที่อยู่อีเมลล์" name="email"  required />
+                                        <button type="submit">รับสิทธิพิเศษ</button>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="space-50"></div>
+            <div class="space-50"></div>
+        </div>
+    </section>
+    <!-- End Section  -->
 
     <!-- Start Section News -->
     <section id="recent_news" class="recent-news padding-100 background-fullwidth background-fixed mobile-hide" style="background-image: url(assets/img/bg-page.png); background-size: cover; background-repeat:no-repeat;">

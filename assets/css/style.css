@@ -202,6 +202,9 @@ footer .subscribe .subscribe-form-2 .form-group {
     .section-title h3 {
         font-size: 36px;
     }
+    .section-title p{
+        font-size: 17px;;
+    }
 }
 
 /*------------------------------
@@ -318,13 +321,19 @@ footer .subscribe .subscribe-form-2 .form-group {
 }
 
 .main-header .navbar-light .navbar-toggler {
-    border-color: #fff;
+    border-color: rgb(14,83,233);
     outline: none;
 }
 
-.main-header .navbar-light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='' stroke-miterlimit='0' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(14,83,233, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(14,83,233);
+  } 
+
+
 
 .main-header .navbar .navbar-nav .nav-item>.nav-link {
     color: #fff;
@@ -2419,6 +2428,7 @@ form.news_submit_form .field input[type="email"] {
     .why-us p {
         text-align: center;
     }
+
 }
 
 
@@ -2448,6 +2458,9 @@ form.news_submit_form .field input[type="email"] {
     .background-fixed {
         background-attachment: fixed;
     }
+    .main-header{
+        top: 0px;
+    } 
    
 }
 
@@ -2469,6 +2482,20 @@ form.news_submit_form .field input[type="email"] {
     }
    
 }
+
+
+.icon-slider {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
 
 
 
