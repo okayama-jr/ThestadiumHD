@@ -2487,14 +2487,15 @@ form.news_submit_form .field input[type="email"] {
 .icon-slider {
     width: 100px;
     height: 100px;
-    background-color: red;
+    color: #fff;
     animation-name: example;
-    animation-duration: 4s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
   }
   
   @keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
+    from {color: #fff;}
+    to {color: #285AEB;}
   }
 
 

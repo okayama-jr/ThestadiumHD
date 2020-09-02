@@ -9,4 +9,5 @@ $dbname = "db_con_landingpage";
     if (!$con) {
         die("connection_failed" . mysqli_connect_error());
     }
+    mysqli_close($con);
 ?>
