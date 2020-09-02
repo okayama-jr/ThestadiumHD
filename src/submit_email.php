@@ -29,7 +29,7 @@ include('../src/connect_db.php');  //ไฟล์เชื่อมต่อก�
 		echo "</script>";
 		die;
 	} 
-
+	mysqli_close($con);
 	
 	
 ?>
